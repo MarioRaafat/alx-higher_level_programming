@@ -10,5 +10,7 @@ if __name__ == "__main__":
         print("{} arguments.".format(count))
     elif count == 1:
         print("{} argument:".format(count))
+    else:
+        print("{} arguments:".format(count))
     while i < (count + 1):
         print("{}: {}".format(i, sys.argv[i]))
