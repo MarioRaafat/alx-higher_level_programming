@@ -8,4 +8,5 @@ if __name__ == "__main__":
     i = 0
     while i < count:
         total += int(sys.argv[i + 1])
+        i += 1
     print("{}".format(total))
