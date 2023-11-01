@@ -66,4 +66,3 @@ class Rectangle:
             if i != self.__height - 1:
                 mm.append("\n")
         return ("".join(mm))
-
