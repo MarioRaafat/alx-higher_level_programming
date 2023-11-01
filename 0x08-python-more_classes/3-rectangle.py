@@ -65,5 +65,5 @@ class Rectangle:
                 mm.append('#')
             if i != self.__height - 1:
                 mm.append("\n")
-        return ("".join(rect))
+        return ("".join(mm))
 
