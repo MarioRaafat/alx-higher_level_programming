@@ -1,4 +1,6 @@
 #!/bin/bash
+chmod +x *.cpp
+chmod +x *.py
 echo 'commit'
 read xx
 git add .
