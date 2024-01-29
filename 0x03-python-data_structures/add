@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod +x *.cpp
+chmod +x *.c
 chmod +x *.py
 echo 'commit'
 read xx
