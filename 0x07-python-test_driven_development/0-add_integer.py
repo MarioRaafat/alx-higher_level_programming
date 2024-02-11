@@ -5,7 +5,7 @@ it converts the float numbers to int
 only using int or float 
 """
 
-def add(a, b = 98):
+def add(a, b):
     """ Addition of two integers"""
     if type(a) is not int and type(a) is not float:
         raise TypeError("a must be an integer")
