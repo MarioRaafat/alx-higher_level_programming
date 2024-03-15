@@ -3,6 +3,7 @@ echo 'commit'
 read xx
 chmod +x *.c
 chmod +x *.py
+chmod +x *.sql
 git add .
 git commit -m ${xx}
 git push
