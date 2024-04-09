@@ -1,2 +1,2 @@
-#JavaScript - Warm up
+# JavaScript - Warm up
 - ALX course, first javascript task
