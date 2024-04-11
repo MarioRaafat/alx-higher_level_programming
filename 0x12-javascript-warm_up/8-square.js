@@ -10,4 +10,3 @@ if (process.argv[2] === undefined || isNaN(process.argv[2])) {
     i++;
   }
 }
-
