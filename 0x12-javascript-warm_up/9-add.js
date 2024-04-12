@@ -1,6 +1,5 @@
 #!/usr/bin/node
-if (isNaN(process.argv[2]) || isNaN(process.argv[3])) {
-  console.log(NaN);
-} else {
-  console.log(process.argv[2] + process.argv[3]);
+function add (a, b) {
+  console.log(a + b);
 }
+add(Number(process.argv[2]), Number(process.argv[3]));
