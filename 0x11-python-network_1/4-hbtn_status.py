@@ -3,7 +3,7 @@
 
 import requests
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     content = requsts.get("https://alx-intranet.hbtn.io/status")
     print("Body response:")
